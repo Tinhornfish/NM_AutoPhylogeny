@@ -1,5 +1,5 @@
 # AutoPhylogeny
-**This script is for students of the University of Veterinary Science Budapest to automatize one of the most annoying homework assignments.**
+**This script is for Biology/Zoology students of the University of Veterinary Medicine Budapest to automatize one of the more outdated homework assignments.**
 
 ## Setup
 
