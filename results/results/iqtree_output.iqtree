@@ -3,7 +3,7 @@ IQ-TREE 1.6.12 built Mar 23 2020
 Partition file name: partition.raxml
 Input file name: concatenated__allgenes_allspecies.fasta
 Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
-Random seed number: 393500
+Random seed number: 552459
 
 REFERENCES
 ----------
@@ -81,10 +81,10 @@ SUBSTITUTION PROCESS
 Edge-linked-proportional partition model but separate models between partitions
 
   ID  Model           Speed  Parameters
-   1  TPM2u+F+R2     0.8781  TPM2u{3.97749,56.3512}+F{0.267293,0.291785,0.163012,0.27791}+R2{0.663867,0.0710763,0.336133,2.83464}
+   1  TPM2u+F+R2     0.8781  TPM2u{3.97749,56.3512}+F{0.267293,0.291785,0.163012,0.27791}+R2{0.663867,0.0710764,0.336133,2.83464}
    2  HKY+F+G4       1.2034  HKY{19.4316}+F{0.290433,0.339378,0.120407,0.249781}+G4{0.297403}
    3  HKY+F+G4       0.9153  HKY{20.145}+F{0.29892,0.30758,0.143275,0.250225}+G4{0.227894}
-   4  TN+F+I         1.2716  TN{16.1667,9.48892}+F{0.364618,0.35121,0.0696462,0.214525}+I{0.315111}
+   4  TN+F+I         1.2716  TN{16.1667,9.48893}+F{0.364618,0.35121,0.0696462,0.214525}+I{0.315111}
    5  TPM2u+F+G4     0.9501  TPM2u{3.3973,47.4774}+F{0.274038,0.318289,0.142072,0.2656}+G4{0.269441}
 
 MAXIMUM LIKELIHOOD TREE
@@ -118,7 +118,7 @@ Numbers in parentheses are  ultrafast bootstrap support (%)
           |                   +--Hoolock_hoolock
           |              +----| (100)
           |              |    +--Hoolock_leuconedys
-          |           +--| (69)
+          |           +--| (73)
           |           |  +------Nomascus_leucogenys
           |   +-------| (100)
           |   |       +----Hylobates_agilis
@@ -131,7 +131,7 @@ Numbers in parentheses are  ultrafast bootstrap support (%)
 
 Tree in newick format:
 
-(Pan_paniscus:0.0186107162,Pan_troglodytes:0.0272668649,((Gorilla_beringei:0.0208447165,Gorilla_gorilla:0.0184354042)100:0.0633355081,((Pongo_abelii:0.0372942021,Pongo_pygmaeus:0.0461192768)100:0.1169822963,((((Hoolock_hoolock:0.0120181465,Hoolock_leuconedys:0.0137846839)100:0.0538578906,Nomascus_leucogenys:0.0755216750)69:0.0097222896,Hylobates_agilis:0.0611760914)100:0.0890654068,(Cercocebus_atys:0.1387178439,(Macaca_mulatta:0.0421870286,Macaca_fascicularis:0.0492878131)100:0.0920151837)100:0.3160271114)100:0.0459517628)100:0.0559847163)100:0.0557641586);
+(Pan_paniscus:0.0186107469,Pan_troglodytes:0.0272668153,((Gorilla_beringei:0.0208438818,Gorilla_gorilla:0.0184358094)100:0.0633354724,((Pongo_abelii:0.0372941363,Pongo_pygmaeus:0.0461193045)100:0.1169822621,((((Hoolock_hoolock:0.0120181442,Hoolock_leuconedys:0.0137846880)100:0.0538578836,Nomascus_leucogenys:0.0755216944)73:0.0097222790,Hylobates_agilis:0.0611760996)100:0.0890653687,(Cercocebus_atys:0.1387177712,(Macaca_mulatta:0.0421871299,Macaca_fascicularis:0.0492877483)100:0.0920151990)100:0.3160272405)100:0.0459517389)100:0.0559846789)100:0.0557641615);
 
 CONSENSUS TREE
 --------------
@@ -159,7 +159,7 @@ Numbers in parentheses are bootstrap supports (%)
           |                   +--Hoolock_hoolock
           |              +----| (100)
           |              |    +--Hoolock_leuconedys
-          |           +--| (69)
+          |           +--| (73)
           |           |  +------Nomascus_leucogenys
           |   +-------| (100)
           |   |       +----Hylobates_agilis
@@ -173,12 +173,12 @@ Numbers in parentheses are bootstrap supports (%)
 
 Consensus tree in newick format: 
 
-(Pan_paniscus:0.0186109935,Pan_troglodytes:0.0272671220,((Gorilla_beringei:0.0208411685,Gorilla_gorilla:0.0184380532)100:0.0633365855,((Pongo_abelii:0.0372983120,Pongo_pygmaeus:0.0461198596)100:0.1169836600,((((Hoolock_hoolock:0.0120226437,Hoolock_leuconedys:0.0137840130)100:0.0538573399,Nomascus_leucogenys:0.0755298274)69:0.0097363987,Hylobates_agilis:0.0611753365)100:0.0890721315,(Cercocebus_atys:0.1387205839,(Macaca_mulatta:0.0421928409,Macaca_fascicularis:0.0492922057)100:0.0920304800)100:0.3160861518)100:0.0459518374)100:0.0559872098)100:0.0557676165);
+(Pan_paniscus:0.0186109943,Pan_troglodytes:0.0272671249,((Gorilla_beringei:0.0208411709,Gorilla_gorilla:0.0184380539)100:0.0633365947,((Pongo_abelii:0.0372983161,Pongo_pygmaeus:0.0461198640)100:0.1169836826,((((Hoolock_hoolock:0.0120226446,Hoolock_leuconedys:0.0137840140)100:0.0538573464,Nomascus_leucogenys:0.0755298368)73:0.0097364012,Hylobates_agilis:0.0611753419)100:0.0890721501,(Cercocebus_atys:0.1387206105,(Macaca_mulatta:0.0421928439,Macaca_fascicularis:0.0492922125)100:0.0920305001)100:0.3160862439)100:0.0459518480)100:0.0559872223)100:0.0557676238);
 
 TIME STAMP
 ----------
 
-Date and time: Tue May 12 12:00:32 2026
-Total CPU time used: 36.090434 seconds (0h:0m:36s)
-Total wall-clock time used: 19.60376368 seconds (0h:0m:19s)
+Date and time: Tue May 12 12:25:41 2026
+Total CPU time used: 45.54408 seconds (0h:0m:45s)
+Total wall-clock time used: 21.15878945 seconds (0h:0m:21s)
 

@@ -4,8 +4,8 @@ Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    tinhornfish (AVX2, FMA3, 31 GB RAM)
 Command: iqtree2 -s concatenated__allgenes_allspecies.fasta -spp partition.raxml -m MFP -bb 1000 -nt AUTO -pre iqtree_output
-Seed:    393500 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Tue May 12 12:00:07 2026
+Seed:    552459 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 12 12:25:13 2026
 Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
 
 Reading partition model file partition.raxml ...
@@ -41,7 +41,7 @@ Info: multi-threading strategy over partitions
 
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.011 seconds
 NOTE: ModelFinder requires 11 MB RAM!
 NUMBER OF THREADS FOR PARTITION FINDING: 4
 Testing GTR+F+G on supermatrix...
@@ -61,19 +61,19 @@ WARNING: Partition model has worse fit than single model!
 WARNING: Add MERGE to -m option to increase model fit!
 
 All model information printed to iqtree_output.model.gz
-CPU time for ModelFinder: 13.916 seconds (0h:0m:13s)
-Wall-clock time for ModelFinder: 5.362 seconds (0h:0m:5s)
-Generating 1000 samples for ultrafast bootstrap (seed: 393500)...
+CPU time for ModelFinder: 17.099 seconds (0h:0m:17s)
+Wall-clock time for ModelFinder: 6.718 seconds (0h:0m:6s)
+Generating 1000 samples for ultrafast bootstrap (seed: 552459)...
 
 NOTE: 7 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 4 CPU cores
 Increase to 10 rounds for branch lengths
-100 trees examined
-Threads: 1 / Time: 4.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -26691
-Threads: 2 / Time: 2.188 sec / Speedup: 1.830 / Efficiency: 91% / LogL: -26691
-Threads: 3 / Time: 2.276 sec / Speedup: 1.758 / Efficiency: 59% / LogL: -26691
-Threads: 4 / Time: 2.935 sec / Speedup: 1.363 / Efficiency: 34% / LogL: -26691
-BEST NUMBER OF THREADS: 2
+103 trees examined
+Threads: 1 / Time: 4.010 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -28280
+Threads: 2 / Time: 2.441 sec / Speedup: 1.643 / Efficiency: 82% / LogL: -28280
+Threads: 3 / Time: 2.277 sec / Speedup: 1.761 / Efficiency: 59% / LogL: -28280
+Threads: 4 / Time: 3.449 sec / Speedup: 1.163 / Efficiency: 29% / LogL: -28280
+BEST NUMBER OF THREADS: 3
 
 Estimate model parameters (epsilon = 0.100)
 Initial log-likelihood: -23695.025
@@ -83,17 +83,17 @@ Current log-likelihood at step 3: -21087.415
 Current log-likelihood at step 4: -21087.094
 Current log-likelihood at step 5: -21087.002
 Partition-specific rates:  0.877 1.209 0.913 1.274 0.946
-Parameters optimization took 4 rounds (0.104 sec)
+Parameters optimization took 4 rounds (0.088 sec)
 
 Computing ML distances based on estimated model parameters... 0.007 sec
 Computing BIONJ tree...
-0.000 seconds
+0.001 seconds
 Log-likelihood of BIONJ tree: -21087.002
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 99 parsimony trees... 0.422 second
-Computing log-likelihood of 99 initial trees ... 0.881 seconds
+Generating 99 parsimony trees... 0.312 second
+Computing log-likelihood of 99 initial trees ... 0.729 seconds
 Current best score: -21087.002
 
 Do NNI search on 20 best initial trees
@@ -101,30 +101,30 @@ Estimate model parameters (epsilon = 0.100)
 Initial log-likelihood: -21084.735
 Current log-likelihood at step 1: -21084.597
 Current log-likelihood at step 2: -21084.530
-Parameters optimization took 1 rounds (0.018 sec)
+Parameters optimization took 1 rounds (0.021 sec)
 
 BETTER TREE FOUND at iteration 1: -21084.530
-Iteration 10 / LogL: -21085.804 / Time: 0h:0m:13s
-Iteration 20 / LogL: -21085.167 / Time: 0h:0m:14s
+Iteration 10 / LogL: -21084.616 / Time: 0h:0m:14s
+Iteration 20 / LogL: -21084.901 / Time: 0h:0m:14s
 Finish initializing candidate tree set (1)
-Current best tree score: -21084.530 / CPU time: 2.386
+Current best tree score: -21084.530 / CPU time: 2.206
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
+Iteration 30 / LogL: -21084.592 / Time: 0h:0m:15s (0h:0m:38s left)
+Iteration 40 / LogL: -21084.727 / Time: 0h:0m:16s (0h:0m:25s left)
+Iteration 50 / LogL: -21084.594 / Time: 0h:0m:17s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -21093.167
+Iteration 60 / LogL: -21084.581 / Time: 0h:0m:17s (0h:0m:12s left)
+Iteration 70 / LogL: -21084.685 / Time: 0h:0m:18s (0h:0m:8s left)
+Iteration 80 / LogL: -21084.596 / Time: 0h:0m:19s (0h:0m:5s left)
 UPDATE BEST LOG-LIKELIHOOD: -21084.530
-Iteration 30 / LogL: -21084.585 / Time: 0h:0m:14s (0h:0m:35s left)
-Iteration 40 / LogL: -21085.074 / Time: 0h:0m:15s (0h:0m:24s left)
-Iteration 50 / LogL: -21084.555 / Time: 0h:0m:16s (0h:0m:16s left)
-Log-likelihood cutoff on original alignment: -21115.594
-Iteration 60 / LogL: -21087.501 / Time: 0h:0m:16s (0h:0m:11s left)
-Iteration 70 / LogL: -21084.609 / Time: 0h:0m:17s (0h:0m:7s left)
-Iteration 80 / LogL: -21084.547 / Time: 0h:0m:18s (0h:0m:4s left)
-Iteration 90 / LogL: -21084.634 / Time: 0h:0m:18s (0h:0m:2s left)
-Iteration 100 / LogL: -21084.665 / Time: 0h:0m:19s (0h:0m:0s left)
-Log-likelihood cutoff on original alignment: -21097.816
+Iteration 90 / LogL: -21084.619 / Time: 0h:0m:19s (0h:0m:2s left)
+Iteration 100 / LogL: -21085.042 / Time: 0h:0m:20s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -21094.060
 NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
-TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:19s
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:21s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
@@ -136,7 +136,7 @@ Current log-likelihood at step 1: -21084.495
 Current log-likelihood at step 2: -21084.477
 Current log-likelihood at step 3: -21084.467
 Partition-specific rates:  0.878 1.203 0.915 1.272 0.950
-Parameters optimization took 2 rounds (0.025 sec)
+Parameters optimization took 2 rounds (0.033 sec)
 
 BEST SCORE FOUND : -21084.467
 Creating bootstrap support values...
@@ -144,10 +144,10 @@ Split supports printed to NEXUS file iqtree_output.splits.nex
 Total tree length: 1.460
 
 Total number of iterations: 102
-CPU time used for tree search: 13.144 sec (0h:0m:13s)
-Wall-clock time used for tree search: 7.799 sec (0h:0m:7s)
-Total CPU time used: 36.090 sec (0h:0m:36s)
-Total wall-clock time used: 19.577 sec (0h:0m:19s)
+CPU time used for tree search: 20.752 sec (0h:0m:20s)
+Wall-clock time used for tree search: 8.584 sec (0h:0m:8s)
+Total CPU time used: 45.544 sec (0h:0m:45s)
+Total wall-clock time used: 21.129 sec (0h:0m:21s)
 
 Computing bootstrap consensus tree...
 Reading input file iqtree_output.splits.nex...
@@ -168,4 +168,4 @@ Ultrafast bootstrap approximation results written to:
   Consensus tree:                iqtree_output.contree
   Screen log file:               iqtree_output.log
 
-Date and Time: Tue May 12 12:00:32 2026
+Date and Time: Tue May 12 12:25:41 2026

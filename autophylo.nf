@@ -221,6 +221,7 @@ process iqtree {
     path "*.treefile"
     path "*.log"
     path "*.iqtree"
+    path "*.nwk"
 
     script:
     """
@@ -232,6 +233,9 @@ process iqtree {
         -bb 1000 \
         -nt AUTO \
         -pre iqtree_output
+    
+    # Copy treefile to .nwk format
+    cp iqtree_output.treefile iqtree_output.nwk
     """
 }
 
