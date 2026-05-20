@@ -1,8 +1,0 @@
-#nexus
-begin sets;
-    charset COX1 = 1-1569;
-    charset CYTB = 1570-2710;
-    charset COX2 = 2711-3394;
-    charset ATP8 = 3395-3601;
-    charset COX3 = 3602-4385;
-end;
