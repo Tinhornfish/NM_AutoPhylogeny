@@ -9,6 +9,7 @@ process after_alignment {
     path "genes_length_after.tsv"
     path "partition.nex"
     path "partition.raxml"
+    path "accession_list.txt"
 
     script:
     """
@@ -19,6 +20,8 @@ process after_alignment {
 
     output_file="concatenated__allgenes_allspecies.fasta"
     > "\$output_file"
+
+    grep -h '^>' "${inputDir}"/concatenated_*_aligned.fas > accession_list.txt
 
     # Collect gene lengths first
     declare -A gene_lengths
